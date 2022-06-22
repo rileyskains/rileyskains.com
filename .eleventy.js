@@ -3,6 +3,7 @@ const dayjs = require("dayjs");
 module.exports = function (config) {
   // Pass-through images
   config.addPassthroughCopy("./_site/images");
+  config.addPassthroughCopy("./_site/js");
 
   // Add Date filters
   config.addFilter("date", (dateObj) => {
