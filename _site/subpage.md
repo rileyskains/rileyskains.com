@@ -14,5 +14,3 @@ order: 2
 <h2 class="pb-12 text-4xl font-bold text-center text-gray-500">
 	{{ config.siteTitle }}
 </h2>
-
-{% include "navigation.njk" %}
