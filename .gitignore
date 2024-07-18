@@ -1,5 +1,4 @@
-# package directories
-node_modules
-jspm_packages
-dist
-.DS_Store
+_site/
+node_modules/
+package-lock.json
+.cache
